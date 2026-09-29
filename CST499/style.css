@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    background: #eeeeee;
+}
+
+header {
+    padding: 15px 8%;
+    color: white;
+    background: #1d4f7a;
+}
+
+header h2 {
+    margin: 0 0 10px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: white;
+}
+
+main {
+    width: 84%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 20px;
+    background: white;
+}
+
+form {
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.small-form {
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 4px 0 10px;
+}
+
+button,
+.button {
+    display: inline-block;
+    padding: 8px 12px;
+    color: white;
+    background: #1d4f7a;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.semester-links {
+    margin-bottom: 20px;
+}
+
+.message,
+.notice {
+    padding: 10px;
+    background: #fff4c4;
+}
+
+.error {
+    padding: 10px;
+    background: #ffdede;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #999999;
+    text-align: left;
+}
